@@ -16,7 +16,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello There! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True :
         city = input("Which city's data would you like to see Chichago, New York City or Washington?: ").lower()
@@ -146,6 +146,8 @@ def station_stats(df):
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
+    
+    print("dummy print function")
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -196,7 +198,7 @@ def user_stats(df,city):
 
 #added extra comment for documentation branch
 def main():
-    counter = 10
+    counter = 15
     loop_value = True
     while loop_value == True:
         city, month, day = get_filters()
