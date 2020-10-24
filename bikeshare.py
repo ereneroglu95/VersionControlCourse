@@ -194,7 +194,7 @@ def user_stats(df,city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-#added comment for documentation branch
+#added extra comment for documentation branch
 def main():
     counter = 10
     loop_value = True
