@@ -196,7 +196,7 @@ def user_stats(df,city):
 
 #added comment for documentation branch
 def main():
-    counter = 10
+    counter = 15
     loop_value = True
     while loop_value == True:
         city, month, day = get_filters()
